@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    height: 100px;
+    width: 100px;
+}
+.items {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+.items ul {
+    list-style: none; /* Remove default list styles */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
